@@ -1,2 +1,3 @@
 # Tictoc-game
-This is a repository for tictoc game by Divyanshu MJ
+This is a repository for tictac game by "Divyanshu MJ"
+For educational purpose only
