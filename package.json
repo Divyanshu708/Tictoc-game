@@ -1,0 +1,16 @@
+{
+  "name": "tictoc-game",
+  "version": "1.0.0",
+  "description": "The normal tictoc game created by Divyanshu MJ",
+  "entry": "d:/Programming/Git/Tictoc-game/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "author": "Divyanshu MJ",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

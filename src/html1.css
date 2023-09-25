@@ -1,0 +1,228 @@
+body{
+  background-color: rgb(65, 65, 65);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* button{
+  box-sizing: border-box;
+} */
+.btn{
+  font-family: 'Silkscreen', cursive;
+  font-size: 50px;
+  color: #eee;
+  margin-top: 200px;
+  margin-left: 15%;
+
+  /* margin: 20px; */
+  background-color: rgb(65, 65, 65);
+  border: 5px solid #eee;
+}
+
+.btndiv{
+  /* box-sizing: border-box; */
+  padding: 20px;
+}
+
+.reset{
+  font-family: 'Press Start 2P', cursive;
+  font-stretch: 100px;
+  font-size: 30px;
+  color: rgb(65, 65, 65);
+  height: 75px;
+  width: 200px;
+  background-color: #eee;
+  border: 5px solid rgb(199, 199, 199);
+  position: absolute;
+  right: 70px;
+  top:200px;
+}
+
+.winner{
+  display: inline;
+  font-family: 'Silkscreen', cursive;
+  color:#eee;
+  font-size: 100px;
+  position: absolute;
+  left: 1000px;
+  top:500px;
+}
+
+.Draw{
+  display: inline;
+  font-family: 'Press Start 2P', cursive;
+  color:#eee;
+  font-size: 100px;
+  position: absolute;
+  left: 970px;
+  top:450px;
+}
+
+.player_lable{
+  display: inline;
+  font-family: 'Silkscreen', cursive;
+  color:#eee;
+  font-size: 100px;
+  position: absolute;
+  left: 900px;
+  top:360px;
+}
+
+.num_lable{
+  display: inline;
+  font-family: 'Silkscreen', cursive;
+  color:#eee;
+  font-size: 110px;
+  position: absolute;
+  left: 1400px;
+  top:350px;
+
+}
+#btn1{
+   position: absolute;
+   top: 30px;
+   left: 20px;
+   width: 150px;
+   height: 175px;
+ }
+#btn2{
+  position: absolute;
+  top: 30px;
+  left: 182px;
+  width: 150px;
+  height: 175px;
+}
+#btn3{
+   position: absolute;
+   top: 30px;
+   left: 345px;
+   width: 150px;
+   height: 175px;
+}
+#btn4{
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  width: 150px;
+  height: 175px;
+}
+#btn5{
+  position: absolute;
+  top: 220px;
+  left: 182px;
+  width: 150px;
+  height: 175px;
+}
+#btn6{
+  position: absolute;
+  top: 220px;
+  left: 345px;
+  width: 150px;
+  height: 175px;
+}
+#btn7{
+  position: absolute;
+  top: 410px;
+  left: 20px;
+  width: 150px;
+  height: 175px;
+}
+#btn8{
+  position: absolute;
+  top: 410px;
+  left: 182px;
+  width: 150px;
+  height: 175px;
+}
+#btn9{
+  position: absolute;
+  top: 410px;
+  left: 345px;
+  width: 150px;
+  height: 175px;
+}
+
+.heading1{
+  font-family: 'Silkscreen', cursive;
+  background-color:#eee;
+  color:rgb(65, 65, 65);
+  text-align: center;
+  padding: 20px;
+  font-size: 70px;
+}
+
+.headhr{
+  height: 3px;
+  margin-bottom: 7px;
+  color:#eee;
+  background-color: #eee;
+  border:2px solid #eee;
+}
+
+.tictocimg{
+  width: 140px;
+  height: 100px;
+  position: absolute;
+  top: 15px;
+  left: 510px;
+}
+
+footer{
+  font-family: 'Press Start 2P', cursive;
+  width: 1838px;
+  height: 50px;
+  padding: 20px;
+  font-size: 13px;
+  color: rgb(65, 65, 65);
+  background-color: #eee;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer_text{
+  position: absolute;
+  top: 40px;
+  left: 570px;
+}
+
+.footerhr{
+  height: 3px;
+  margin-bottom: 7px;
+  margin-top: 578px;
+  color:#eee;
+  background-color: #eee;
+  border:2px solid #eee;
+}
+
+.player_on_1{
+  font-family: 'Press Start 2P', cursive;
+  color:#eee;
+  font-size: 50px;
+  position: absolute;
+  left: 870px;
+  top:430px;
+  visibility: visible;
+}
+
+.player_on_2{
+  font-family: 'Press Start 2P', cursive;
+  color:#eee;
+  font-size: 50px;
+  position: absolute;
+  left: 870px;
+  top:580px;
+  visibility: visible;
+}
+
+.playerturn{
+  font-family: 'Press Start 2P', cursive;
+  color:#eee;
+  font-size: 50px;
+  position: absolute;
+  left: 1060px;
+  top:300px;
+  visibility: visible;
+}
